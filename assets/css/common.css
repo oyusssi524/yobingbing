@@ -2,6 +2,13 @@
 * {font-family: "Noto Sans KR", sans-serif;}
 
 :root {
+  --bz-ybb-light-0: #E3F9F7;
+  --bz-ybb-light-1: #B8E5E0;
+  --bz-ybb-mid: #89CDCC;
+  --bz-ybb-dark-0: #1F9491;
+  --bz-ybb-dark-1: #176F6D;
+  --bz-yellow: #FFE667;
+
   --bz-font-size-10: 0.625rem;
   --bz-font-size-12: 0.75rem;
   --bz-font-size-13: 0.8125rem;
