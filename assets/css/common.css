@@ -1,0 +1,18 @@
+/* ---- common ---- */
+* {font-family: "Noto Sans KR", sans-serif;}
+
+:root {
+  --bz-font-size-10: 0.625rem;
+  --bz-font-size-12: 0.75rem;
+  --bz-font-size-13: 0.8125rem;
+  --bz-font-size-14: 0.875rem;
+  --bz-font-size-16: 1rem;
+  --bz-font-size-18: 1.125rem;
+  --bz-font-size-20: 1.25rem;
+  --bz-font-size-24: 1.5rem;
+  --bz-font-size-28: 1.75rem;
+  --bz-font-size-32: 2rem;
+  --bz-font-size-40: 2.5rem;
+  --bz-font-size-48: 3rem;
+  --bz-font-size-60: 3.75rem;
+}
