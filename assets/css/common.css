@@ -1,6 +1,19 @@
 /* ---- common ---- */
 * {font-family: "Noto Sans KR", sans-serif;}
 
+/* ---- header ---- */
+header.bz-header {position: fixed; left: 0; right: 0; top: 0; z-index: 1000; background: var(--bs-light);}
+#navbarNav {text-align: center;}
+ul.navbar-nav {padding: 3rem 0;}
+li.nav-item {margin-bottom: 2rem;}
+
+@media screen and (min-width: 992px) {
+  #navbarNav {justify-content: end;}
+  ul.navbar-nav {padding: 0;}
+  li.nav-item {margin: 0 6rem 0 0;}
+  li.nav-item:nth-last-of-type(1) {margin: 0;}
+}
+
 :root {
   --bz-ybb-light-0: #E3F9F7;
   --bz-ybb-light-1: #B8E5E0;

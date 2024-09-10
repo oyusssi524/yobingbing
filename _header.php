@@ -18,4 +18,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>  
-  <header class="bz-header"></header>
+  <header class="bz-header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="/"><img src="./assets/img/ybb-logo.svg" alt="" style="width: 120px;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./about.php">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./menu.php">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./franchise.php">FRANCHISE</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
