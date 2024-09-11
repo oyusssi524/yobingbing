@@ -3,16 +3,13 @@ include_once "./_header.php"
 ?>
   <main class="bz-main">
     <!-- main visual -->
-    <section class="carausel slide" data-bs-ride="carousel">
+    <section class="carausel slide bz-sec" data-bs-ride="carousel">
       <ul class="carousel-inner">
         <li class="carousel-item active" data-bs-interval="5000">
-          <img src="./assets/img/no_img_rect_w.png" alt="요빙빙 소개" class="img-fluid">
+          <img src="./assets/img/index-top-visual-1.png" alt="요빙빙 소개" class="img-fluid">
         </li>
-        <li class="carousel-item" data-bs-interval="3000">
-          <img src="./assets/img/no_img_rect_w.png" alt="요빙빙 소개" class="img-fluid">
-        </li>
-        <li class="carousel-item" data-bs-interval="3000">
-          <img src="./assets/img/no_img_rect_w.png" alt="요빙빙 소개" class="img-fluid">
+        <li class="carousel-item" data-bs-interval="5000">
+          <img src="./assets/img/index-top-visual-2.png" alt="요빙빙 소개" class="img-fluid">
         </li>
       </ul>
       <a class="carousel-control-prev" type="button" data-bs-target="#bzSlide" data-bs-slide="prev">
@@ -38,7 +35,7 @@ include_once "./_header.php"
                   <h3 class="bz-tit">요거트 아이스크림</h3>
                 </div>
                 <div class="bz-img-box">
-                  <img src="./assets/img/no_img_sq.png" alt="요거트 아이스크림" class="img-fluid">
+                  <img src="./assets/img/index-menu-1.png" alt="요거트 아이스크림" class="img-fluid">
                 </div>
               </div>
               <div class="col">
@@ -46,7 +43,7 @@ include_once "./_header.php"
                   <h3 class="bz-tit">시그니처 메뉴</h3>
                 </div>
                 <div class="bz-img-box">
-                  <img src="./assets/img/no_img_sq.png" alt="시그니처 메뉴" class="img-fluid">
+                  <img src="./assets/img/index-menu-2.png" alt="시그니처 메뉴" class="img-fluid">
                 </div>
               </div>
               <div class="col">
@@ -54,7 +51,7 @@ include_once "./_header.php"
                   <h3 class="bz-tit">토핑</h3>
                 </div>
                 <div class="bz-img-box">
-                  <img src="./assets/img/no_img_sq.png" alt="토핑" class="img-fluid">
+                  <img src="./assets/img/index-menu-3.png" alt="토핑" class="img-fluid">
                 </div>
               </div>
             </div>
@@ -66,23 +63,23 @@ include_once "./_header.php"
       </div>
     </section>
     <!-- franchise 바로가기 -->
-    <section class="bz-sec">
+    <section class="bz-sec index-fc">
       <div class="container">
         <div class="row row-cols-1">
           <div class="col bz-tit-box">
-            <h2 class="bz-tit">FRANCHISE</h2>
+            <h2 class="bz-tit text-white">FRANCHISE</h2>
           </div>
           <div class="col bz-item-box">
-            <div class="row row-cols-1 row-cols-lg-3">
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
               <div class="col">
                 <div class="bz-tit-box bz-tit-lg-left">
-                  <h3 class="bz-tit">요거트 아이스크림 전문점 : 요빙빙</h3>
+                  <h3 class="bz-tit text-white">요거트 아이스크림 전문점 : 요빙빙</h3>
                 </div>
                 <div class="bz-txt-box">
-                  <p class="bz-txt">신선한 맛과 건강한 즐거움이 만나는 곳, 요빙빙에서 프리미엄 요거트 아이스크림의 세계로 여러분을 초대합니다.</p>
+                  <p class="bz-txt text-white">신선한 맛과 건강한 즐거움이 만나는 곳, 요빙빙에서 프리미엄 요거트 아이스크림의 세계로 여러분을 초대합니다.</p>
                 </div>
                 <div class="bz-btn-box bz-btn-lg-left">
-                  <a href="" class="btn btn-secondary bz-btn" type="button">자세히 보러가기<i class="bi bi-arrow-right-short"></i></a>
+                  <a href="./franchise.php" class="btn btn-light bz-btn" type="button">자세히 보러가기<i class="bi bi-arrow-right-short"></i></a>
                 </div>
               </div>
               <div class="col">
@@ -90,8 +87,8 @@ include_once "./_header.php"
                   <div class="bz-icon-box text-center">
                     <i class="bi bi-1-square-fill bz-i-num-square"></i>
                   </div>
-                  <div class="bz-img-box">
-                    <img src="./assets/img/index-fc-icon-01.png" alt="" class="img-fluid">
+                  <div class="bz-icon-box text-center">
+                    <img src="./assets/img/index-fc-icon-1.png" alt="" class="img-fluid">
                   </div>
                   <div class="bz-tit-box">
                     <h3 class="bz-tit">브랜드 특징</h3>
@@ -103,8 +100,8 @@ include_once "./_header.php"
                   <div class="bz-icon-box text-center">
                     <i class="bi bi-2-square-fill bz-i-num-square"></i>
                   </div>
-                  <div class="bz-img-box">
-                    <img src="./assets/img/index-fc-icon-02.png" alt="" class="img-fluid">
+                  <div class="bz-icon-box text-center">
+                    <img src="./assets/img/index-fc-icon-2.png" alt="" class="img-fluid">
                   </div>
                   <div class="bz-tit-box">
                     <h3 class="bz-tit">안정적인 수익 구조</h3>
@@ -116,8 +113,8 @@ include_once "./_header.php"
                   <div class="bz-icon-box text-center">
                     <i class="bi bi-3-square-fill bz-i-num-square"></i>
                   </div>
-                  <div class="bz-img-box">
-                    <img src="./assets/img/index-fc-icon-03.png" alt="" class="img-fluid">
+                  <div class="bz-icon-box text-center">
+                    <img src="./assets/img/index-fc-icon-3.png" alt="" class="img-fluid">
                   </div>
                   <div class="bz-tit-box">
                     <h3 class="bz-tit">인테리어</h3>
@@ -129,8 +126,8 @@ include_once "./_header.php"
                   <div class="bz-icon-box text-center">
                     <i class="bi bi-4-square-fill bz-i-num-square"></i>
                   </div>
-                  <div class="bz-img-box">
-                    <img src="./assets/img/index-fc-icon-04.png" alt="" class="img-fluid">
+                  <div class="bz-icon-box text-center">
+                    <img src="./assets/img/index-fc-icon-4.png" alt="" class="img-fluid">
                   </div>
                   <div class="bz-tit-box">
                     <h3 class="bz-tit">창업 절차</h3>
@@ -142,8 +139,8 @@ include_once "./_header.php"
                   <div class="bz-icon-box text-center">
                     <i class="bi bi-5-square-fill bz-i-num-square"></i>
                   </div>
-                  <div class="bz-img-box">
-                    <img src="./assets/img/index-fc-icon-05.png" alt="" class="img-fluid">
+                  <div class="bz-icon-box text-center">
+                    <img src="./assets/img/index-fc-icon-5.png" alt="" class="img-fluid">
                   </div>
                   <div class="bz-tit-box">
                     <h3 class="bz-tit">창업 비용</h3>
@@ -172,7 +169,7 @@ include_once "./_header.php"
                   <h4 class="bz-tit">요빙빙, 하남점 OPEN</h4>
                 </div>
                 <div class="bz-txt-box">
-                  <p class="bz-txt">요빙빙, 하남점 OPEN, 이제 하남에서도 매일매일 상큼한 즐거움을 집 앞으로 배달할 수 있게 되었습니다!</p>
+                  <p class="bz-txt">요빙빙, 하남점 OPEN으로 이제 하남에서도 매일매일 상큼한 즐거움을 집 앞으로 배달할 수 있게 되었습니다!</p>
                 </div>
               </li>
               <li class="col">
