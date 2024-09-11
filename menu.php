@@ -6,7 +6,7 @@ include_once "./_header.php"
     <section class="bz-sec">
       <div class="container">
         <div class="row row-cols-1">
-          <div class="bz-tit-box bz-tit-left col">
+          <div class="bz-tit-box bz-tit-lg-left col">
             <h2 class="bz-tit">요거트 아이스크림</h2>
             <p class="bz-tit-caption">요빙빙은 '건강한 즐거움'이라는 브랜드 철학을 바탕으로, 고품질 원료와 혁신적인 레시피를 통해 맛과 건강을 동시에 추구합니다.</p>
           </div>
@@ -37,7 +37,7 @@ include_once "./_header.php"
     <section class="bz-sec">
       <div class="container">
         <div class="row row-cols-1">
-          <div class="col bz-tit-box bz-tit-right">
+          <div class="col bz-tit-box bz-tit-lg-right">
             <h2 class="bz-tit">시그니처 메뉴</h2>
             <p class="bz-tit-caption">간편하게 주문할 수 있는 인기 메뉴 제작</p>
           </div>
@@ -108,7 +108,7 @@ include_once "./_header.php"
     <section class="bz-sec">
       <div class="container">
         <div class="row row-cols-1">
-          <div class="bz-tit-box bz-tit-left col">
+          <div class="bz-tit-box bz-tit-lg-left col">
             <h2 class="bz-tit">골라먹는 토핑</h2>
             <p class="bz-tit-caption">간다양한 토핑을 곁들여 나만의 메뉴 완성</p>
           </div>

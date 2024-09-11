@@ -6,7 +6,7 @@ include_once "./_header.php"
     <section class="bz-sec">
       <div class="container">
         <div class="row row-cols-1">
-          <div class="col bz-tit-box bz-tit-right">
+          <div class="col bz-tit-box bz-tit-lg-right">
             <h2 class="bz-tit">Brand Story</h2>
           </div>
           <div class="col bz-item-box">
@@ -17,7 +17,7 @@ include_once "./_header.php"
                 </div>
               </div>
               <div class="col">
-                <div class="bz-tit-box bz-tit-left">
+                <div class="bz-tit-box bz-tit-lg-left">
                   <h3 class="bz-tit">프리미엄 요거트 아이스크림, <span>요빙빙</span></h3>
                 </div>
                 <div class="bz-txt-box">
@@ -35,7 +35,7 @@ include_once "./_header.php"
     <section class="bz-sec">
       <div class="container">
         <div class="row row-cols-1">
-          <div class="col bz-tit-box bz-tit-left">
+          <div class="col bz-tit-box bz-tit-lg-left">
             <h2 class="bz-tit">BI</h2>
           </div>
           <div class="col bz-item-box">
