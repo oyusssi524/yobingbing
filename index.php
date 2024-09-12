@@ -157,63 +157,50 @@ include_once "./_header.php"
       <div class="container">
         <div class="row row-cols-1">
           <div class="col bz-tit-box">
-            <h2 class="bz-tit">NOTICE</h2>
+            <h2 class="bz-tit">요빙빙 소식</h2>
           </div>
           <div class="col bz-item-box">
             <ul class="row row-cols-1 row-cols-lg-3">
               <li class="col">
-                <div class="bz-img-box">
-                  <img src="./assets/img/no_img_rect_w.png" alt="창업 EVENT" class="img-fluid">
-                </div>
-                <div class="bz-tit-box bz-tit-left">
-                  <h4 class="bz-tit">요빙빙, 하남점 OPEN</h4>
-                </div>
-                <div class="bz-txt-box">
-                  <p class="bz-txt">요빙빙, 하남점 OPEN으로 이제 하남에서도 매일매일 상큼한 즐거움을 집 앞으로 배달할 수 있게 되었습니다!</p>
-                </div>
+                <a href="./notice.php?id=3" class="notice-link">
+                  <div class="bz-img-box">
+                    <img src="./assets/img/no_img_rect_w.png" alt="창업 EVENT" class="img-fluid">
+                  </div>
+                  <div class="bz-tit-box bz-tit-left">
+                    <h4 class="bz-tit">요빙빙, 하남점 OPEN</h4>
+                  </div>
+                  <div class="bz-txt-box">
+                    <p class="bz-txt">요빙빙, 하남점 OPEN으로 이제 하남에서도 매일매일 상큼한 즐거움을 집 앞으로 배달할 수 있게 되었습니다!</p>
+                  </div>
+                </a>
               </li>
               <li class="col">
-                <div class="bz-img-box">
-                  <img src="./assets/img/no_img_rect_w.png" alt="시그니처 메뉴" class="img-fluid">
-                </div>
-                <div class="bz-tit-box bz-tit-left">
-                  <h4 class="bz-tit">창업 EVENT 특별 추가 혜택!</h4>
-                </div>
-                <div class="bz-txt-box">
-                  <p class="bz-txt">요빙빙 프랜차이즈 브랜드 출시 기념으로 5가지 특별한 혜택을 받으실 수 있습니다. 성공적인 창업을 위한 이벤트를 만나보세요.</p>
-                </div>
+                <a href="./notice.php?id=2" class="notice-link">
+                  <div class="bz-img-box">
+                    <img src="./assets/img/no_img_rect_w.png" alt="시그니처 메뉴" class="img-fluid">
+                  </div>
+                  <div class="bz-tit-box bz-tit-left">
+                    <h4 class="bz-tit">창업 EVENT 특별 추가 혜택!</h4>
+                  </div>
+                  <div class="bz-txt-box">
+                    <p class="bz-txt">요빙빙 프랜차이즈 브랜드 출시 기념으로 5가지 특별한 혜택을 받으실 수 있습니다. 성공적인 창업을 위한 이벤트를 만나보세요.</p>
+                  </div>
+                </a>
               </li>
               <li class="col">
-                <div class="bz-img-box">
-                  <img src="./assets/img/no_img_rect_w.png" alt="토핑" class="img-fluid">
-                </div>
-                <div class="bz-tit-box bz-tit-left">
-                  <h4 class="bz-tit">신선함과 달콤함이 만나는 곳, 요빙빙!</h4>
-                </div>
-                <div class="bz-txt-box">
-                  <p class="bz-txt">신선함과 달콤함이 만나는 곳, 요빙빙이 매일매일 상큼한 즐거움을 드립니다! 요거트 아이스크림 전문점을 요빙빙을 만나러 오세요.</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-          <div class="col bz-btn-box">
-            <nav aria-label="Page navigation">
-              <ul class="pagination justify-content-center">
-                <li class="page-item">
-                  <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                  </a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                  <a class="page-link" href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                  </a>
-                </li>
-              </ul>
-            </nav>
+                <a href="./notice.php?id=1" class="notice-link">
+                  <div class="bz-img-box">
+                    <img src="./assets/img/no_img_rect_w.png" alt="토핑" class="img-fluid">
+                  </div>
+                  <div class="bz-tit-box bz-tit-left">
+                    <h4 class="bz-tit">신선함과 달콤함이 만나는 곳, 요빙빙!</h4>
+                  </div>
+                  <div class="bz-txt-box">
+                    <p class="bz-txt">신선함과 달콤함이 만나는 곳, 요빙빙이 매일매일 상큼한 즐거움을 드립니다! 요거트 아이스크림 전문점을 요빙빙을 만나러 오세요.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
