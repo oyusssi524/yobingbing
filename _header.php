@@ -21,19 +21,22 @@
   <header class="bz-header">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand" href="/"><img src="./assets/img/ybb-logo.svg" alt="" style="width: 120px;"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="./"><img src="./assets/img/ybb-logo.svg" alt="" style="width: 120px;"></a>
+        <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        </a>
+        <div class="collapse navbar-collapse flex-lg-row-reverse" id="navbarNav">
+          <div class="bz-nav-item fc-btn">
+            <a href="./franchise.php#fcForms" class="btn btn-secondary btn-sm bz-btn">창업 상담 신청하기</a>
+          </div>
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="bz-nav-item nav-item">
               <a class="nav-link" aria-current="page" href="./about.php">ABOUT US</a>
             </li>
-            <li class="nav-item">
+            <li class="bz-nav-item nav-item">
               <a class="nav-link" href="./menu.php">MENU</a>
             </li>
-            <li class="nav-item">
+            <li class="bz-nav-item nav-item">
               <a class="nav-link" href="./franchise.php">FRANCHISE</a>
             </li>
           </ul>
