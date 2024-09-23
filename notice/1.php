@@ -1,10 +1,3 @@
-<?php
-include_once "./_header.php"
-?>
-  <main class="bz-main">
-    <!-- Brand Story -->
-    <section class="bz-sec">
-      <div class="container">
         <div class="row row-cols-1">
           <div class="col bz-tit-box bz-tit-lg-right">
             <h2 class="bz-tit">Brand Story</h2>
@@ -13,7 +6,7 @@ include_once "./_header.php"
             <div class="row row-cols-1 row-cols-lg-2 flex-lg-row-reverse">
               <div class="col">
                 <div class="bz-img-box">
-                  <img src="./assets/img/about-brand.png" alt="브랜드 소개" class="img-fluid">
+                  <img src="./assets/img/no_img_rect_w.png" alt="브랜드 소개" class="img-fluid">
                 </div>
               </div>
               <div class="col">
@@ -29,39 +22,3 @@ include_once "./_header.php"
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- BI -->
-    <section class="bz-sec">
-      <div class="container">
-        <div class="row row-cols-1">
-          <div class="col bz-tit-box bz-tit-lg-left">
-            <h2 class="bz-tit">BI</h2>
-          </div>
-          <div class="col bz-item-box">
-            <div class="row row-cols-1 row-cols-lg-2">
-              <div class="col">
-                <div class="bz-tit-box">
-                  <h3 class="bz-tit">심볼 로고</h3>
-                </div>
-                <div class="bz-img-box">
-                  <img src="./assets/img/about-bi-1.png" alt="로고 디자인" class="img-fluid">
-                </div>
-              </div>
-              <div class="col">
-                <div class="bz-tit-box">
-                  <h3 class="bz-tit">텍스트 로고</h3>
-                </div>
-                <div class="bz-img-box">
-                  <img src="./assets/img/about-bi-2.png" alt="브랜드 컬러" class="img-fluid">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-<?php
-include_once "./_footer.php"
-?>

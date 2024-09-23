@@ -3,15 +3,19 @@ include_once "./_header.php"
 ?>
   <main class="bz-main">
     <!-- main visual -->
-    <section class="carausel slide bz-sec" data-bs-ride="carousel">
-      <ul class="carousel-inner">
-        <li class="carousel-item active" data-bs-interval="5000">
-          <img src="./assets/img/index-top-visual-1.png" alt="요빙빙 소개" class="img-fluid">
-        </li>
-        <li class="carousel-item" data-bs-interval="5000">
-          <img src="./assets/img/index-top-visual-2.png" alt="요빙빙 소개" class="img-fluid">
-        </li>
-      </ul>
+    <section class="bz-sec position-relative">
+      <div id="bzSlide" class="carousel slide">
+        <ul class="carousel-inner">
+          <li class="carousel-item active" data-bs-interval="5000">
+            <img src="./assets/img/index-top-visual-m-1.png" alt="요빙빙 소개" class="w-100 top-visual-m">
+            <img src="./assets/img/index-top-visual-1.png" alt="요빙빙 소개" class="w-100 top-visual">
+          </li>
+          <li class="carousel-item" data-bs-interval="5000">
+            <img src="./assets/img/index-top-visual-m-2.png" alt="요빙빙 소개" class="w-100 top-visual-m">
+            <img src="./assets/img/index-top-visual-2.png" alt="요빙빙 소개" class="w-100 top-visual">
+          </li>
+        </ul>
+      </div>
       <a class="carousel-control-prev" type="button" data-bs-target="#bzSlide" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
