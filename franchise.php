@@ -13,7 +13,7 @@ include_once "./_header.php"
             <div class="row row-cols-1 row-cols-lg-2 flex-lg-row-reverse">
               <div class="col">
                 <div class="bz-img-box">
-                  <img src="./assets/img/no_img_rect_w.png" alt="요빙빙 소개" class="img-fluid">
+                  <img src="./assets/img/fc-brand.png" alt="요빙빙 소개" class="img-fluid">
                 </div>
               </div>
               <div class="col">
@@ -23,9 +23,9 @@ include_once "./_header.php"
                 <div class="bz-txt-box">
                   <p class="bz-txt">신선한 맛과 건강한 즐거움이 만나는 곳, 요빙빙에서 프리미엄 요거트 아이스크림의 세계로 여러분을 초대합니다. 혁신적인 맛과 트렌디한 분위기로 고객의 마음을 사로잡는 요빙빙과 함께 성공적인 프랜차이즈의 꿈을 이뤄보세요.</p>
                 </div>
-                <div class="bz-btn-box">
-                  <a href="" class="bz-btn">창업 상담 신청하기</a>
-                  <a href="" class="bz-btn">브로셔 다운로드</a>
+                <div class="bz-btn-box bz-btn-lg-left">
+                  <a href="./franchise.php#fcForms" class="btn btn-secondary bz-btn">창업 상담 신청하기</a>
+                  <a href="" class="btn btn-secondary bz-btn">브로셔 다운로드</a>
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ include_once "./_header.php"
             <div class="row row-cols-1 row-cols-lg-2">
               <div class="col">
                 <div class="img-box">
-                  <img src="./assets/img/no_img_rect_h.png" alt="요거트 아이스크림 시장" class="img-fluid">
+                  <img src="./assets/img/fc-analysis.png" alt="요거트 아이스크림 시장" class="img-fluid">
                 </div>
               </div>
               <ul class="col">
@@ -70,23 +70,23 @@ include_once "./_header.php"
       </div>
     </section>
     <!-- 요빙빙이 특별한 이유 -->
-    <section class="bz-sec">
+    <section class="bz-sec fc-spe">
       <div class="container">
         <div class="row row-cols-1">
           <div class="col bz-tit-box">
             <h2 class="bz-tit">요빙빙이 특별한 이유</h2>
           </div>
-          <ul class="col bz-item-box">
-            <li class="bz-txt">“남녀노소 부담없이 즐길 수 있는 상큼한 맛”</li>
-            <li class="bz-txt">“임대료 부담없는 주걱지 중심의 골목상권”</li>
-            <li class="bz-txt">“이동 시간을 고려해 완벽히 조율된 레시피”</li>
-            <li class="bz-txt">“체계화된 창업 시스템으로 빠르고 저렴하게”</li>
-            <li class="bz-txt">“매장 운영관리 시스템으로 수익 극대화”</li>
+          <ul class="col bz-item-box text-center">
+            <li class="bz-li"><p class="bz-txt">“남녀노소 부담없이 즐길 수 있는 상큼한 맛”</p></li>
+            <li class="bz-li"><p class="bz-txt">“임대료 부담없는 주걱지 중심의 골목상권”</p></li>
+            <li class="bz-li"><p class="bz-txt">“이동 시간을 고려해 완벽히 조율된 레시피”</p></li>
+            <li class="bz-li"><p class="bz-txt">“체계화된 창업 시스템으로 빠르고 저렴하게”</p></li>
+            <li class="bz-li"><p class="bz-txt">“매장 운영관리 시스템으로 수익 극대화”</p></li>
           </ul>
         </div>
       </div>
     </section>
-    <!-- 수익 구조 -->
+    <!-- 수익 구조
     <section class="bz-sec">
       <div class="container">
         <div class="row row-cols-1">
@@ -100,9 +100,9 @@ include_once "./_header.php"
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- 마케팅 전략 -->
-    <section class="bz-sec">
+    <section class="bz-sec fc-marketing">
       <div class="container">
         <div class="row row-cols-1">
           <div class="col bz-tit-box">
@@ -143,15 +143,19 @@ include_once "./_header.php"
     <section class="bz-sec">
       <div class="container">
         <div class="row row-cols-1">
-          <div class="col bz-tit-box">
-            <h2 class="bz-tit">인테리어</h2>
-          </div>
           <div class="col bz-item-box">
             <div class="row">
-              <div class="col-lg-8"><img src="./assets/img/no_img_rect_w.png" alt="인테리어"></div>
+              <div class="col-lg-8">
+                <div class="bz-img-box">
+                  <img src="./assets/img/fc-interior.png" alt="인테리어" class="img-fluid">
+                </div>
+              </div>
               <div class="col-lg-4">
+                <div class="col bz-tit-box bz-tit-lg-left">
+                  <h2 class="bz-tit">인테리어</h2>
+                </div>
                 <div class="bz-txt-box">
-                  <p class="bz-txt">깔끔하고 모던한 미니멀리즘 디자인을 적용하여 제품의 신선함과 청결함을 강조합니다. 화이트 톤의 벽면과 가구에 민트색 포인트를 더해 브랜드 아이덴티티를 표현합니다.</p>
+                  <p class="bz-txt">시원한 하늘색의 벽면과 노란색 포인트를 더해 브랜드 아이덴티티를 표현합니다.</p>
                 </div>
               </div>
             </div>
@@ -160,7 +164,7 @@ include_once "./_header.php"
       </div>
     </section>
     <!-- 창업 절차 -->
-    <section class="bz-sec">
+    <section class="bz-sec fc-step">
       <div class="container">
         <div class="row row-cols-1">
           <div class="col bz-tit-box">
@@ -172,28 +176,46 @@ include_once "./_header.php"
                 <i class="bi bi-chat-square-text"></i>
                 <p class="bz-txt">가맹상담</p>
               </div>
+              <div class="d-flex-sb">
+                <i class="bi bi-caret-right-fill d-flex-sb-i"></i>
+              </div>
               <div class="d-flex-item">
                 <i class="bi bi-geo-alt-fill"></i>
                 <p class="bz-txt">점포입지분석</p>
+              </div>
+              <div class="d-flex-sb">
+                <i class="bi bi-caret-right-fill d-flex-sb-i"></i>
               </div>
               <div class="d-flex-item">
                 <i class="bi bi-clipboard-check"></i>
                 <p class="bz-txt">가맹 계약</p>
               </div>
+              <div class="d-flex-sb">
+                <i class="bi bi-caret-right-fill d-flex-sb-i"></i>
+              </div>
               <div class="d-flex-item">
                 <i class="bi bi-hammer"></i>
                 <p class="bz-txt">시설공사</p>
+              </div>
+              <div class="d-flex-sb">
+                <i class="bi bi-caret-right-fill d-flex-sb-i"></i>
               </div>
               <div class="d-flex-item">
                 <i class="bi bi-book"></i>
                 <p class="bz-txt">본사 교육</p>
               </div>
+              <div class="d-flex-sb">
+                <i class="bi bi-caret-right-fill d-flex-sb-i"></i>
+              </div>
               <div class="d-flex-item">
                 <i class="bi bi-ui-checks"></i>
                 <p class="bz-txt">오픈 리허설</p>
               </div>
+              <div class="d-flex-sb">
+                <i class="bi bi-caret-right-fill d-flex-sb-i"></i>
+              </div>
               <div class="d-flex-item">
-                <i class="">OPEN</i>
+                <i class="bi">OPEN</i>
                 <p class="bz-txt">OPEN</p>
               </div>
             </div>
@@ -211,16 +233,19 @@ include_once "./_header.php"
           <div class="col bz-item-box">
             <div class="bz-tab-content">
               <ul id="pyeong_tab" class="nav nav-tabs bz-tab-head" role="tablist">
-                <li class="nav-item">
-                  <a id="pyeong10_tab" class="nav-link active" data-bs-toggle="tab" data-bs-target="#pyeong10" type="button" role="tab" aria-controls="pyeong10" aria-selected="true">10평</a>
+                <li class="nav-item bz-tab-item">
+                  <a id="pyeong10_tab" class="nav-link bz-tab-link active" data-bs-toggle="tab" data-bs-target="#pyeong10" type="button" role="tab" aria-controls="pyeong10" aria-selected="true">10평</a>
                 </li>
-                <li class="nav-item">
-                  <a id="pyeong15_tab" class="nav-link" data-bs-toggle="tab" data-bs-target="#pyeong15" type="button" role="tab" aria-controls="pyeong15" aria-selected="false">15평</a>
+                <li class="nav-item bz-tab-item">
+                  <a id="pyeong15_tab" class="nav-link bz-tab-link" data-bs-toggle="tab" data-bs-target="#pyeong15" type="button" role="tab" aria-controls="pyeong15" aria-selected="false">15평</a>
                 </li>
               </ul>
               <ul id="pyeong" class="tab-content bz-tab-body">
                 <li id="pyeong10" class="tab-pane fade show active" role="tabpanel" aria-labelledby="pyeong10_tab" tabindex="0">
-                  <img src="./assets/img/no_img_sq.png" alt="10평 개설비용" class="img-fluid">
+                  <img src="./assets/img/fc-cost-m-10.png" alt="10평 개설비용" class="img-fluid fc-cost-m-10 mb-3">
+                  <img src="./assets/img/fc-cost-10.png" alt="10평 개설비용" class="img-fluid fc-cost-10 mb-3">
+                  <p class="fc-cost-txt mb-1">* 별도 사항 : 전기증설, 철거비용, 냉/난방기기, 건물 외관 공사, 기타 기물</p>
+                  <p class="fc-cost-txt">* 위 사항은 예측된 수치로 변동 될 수 있습니다.</p>
                 </li>
                 <li id="pyeong15" class="tab-pane fade" role="tabpanel" aria-labelledby="pyeong15_tab" tabindex="0">
                   <img src="./assets/img/no_img_rect_w.png" alt="10평 개설비용" class="img-fluid">
@@ -238,11 +263,11 @@ include_once "./_header.php"
           <div class="col bz-tit-box">
             <h2 class="bz-tit">추가 혜택</h2>
           </div>
-          <div class="col bz-item-box">
+          <div class="col bz-item-box fc-benefit">
             <div class="row row-cols-2 row-cols-lg-5">
               <div class="col">
                 <div class="bz-img-box">
-                  <img src="./assets/img/no_img_sq.png" alt="배달 앱 세팅" class="img-fluid">
+                  <img src="./assets/img/fc-benefit-1.png" alt="배달 앱 세팅" class="img-fluid">
                 </div>
                 <div class="bz-txt-box">
                   <h5 class="bz-tit">배달 앱 세팅</h5>
@@ -251,7 +276,7 @@ include_once "./_header.php"
               </div>
               <div class="col">
                 <div class="bz-img-box">
-                  <img src="./assets/img/no_img_sq.png" alt="네이버 플레이스 등록" class="img-fluid">
+                  <img src="./assets/img/fc-benefit-2.png" alt="네이버 플레이스 등록" class="img-fluid">
                 </div>
                 <div class="bz-txt-box">
                   <h5 class="bz-tit">네이버 플레이스 등록</h5>
@@ -260,7 +285,7 @@ include_once "./_header.php"
               </div>
               <div class="col">
                 <div class="bz-img-box">
-                  <img src="./assets/img/no_img_sq.png" alt="상권분석" class="img-fluid">
+                  <img src="./assets/img/fc-benefit-3.png" alt="상권분석" class="img-fluid">
                 </div>
                 <div class="bz-txt-box">
                   <h5 class="bz-tit">상권분석</h5>
@@ -269,7 +294,7 @@ include_once "./_header.php"
               </div>
               <div class="col">
                 <div class="bz-img-box">
-                  <img src="./assets/img/no_img_sq.png" alt="온라인 홍보채널 제작" class="img-fluid">
+                  <img src="./assets/img/fc-benefit-4.png" alt="온라인 홍보채널 제작" class="img-fluid">
                 </div>
                 <div class="bz-txt-box">
                   <h5 class="bz-tit">온라인 홍보채널 제작</h5>
@@ -278,7 +303,7 @@ include_once "./_header.php"
               </div>
               <div class="col">
                 <div class="bz-img-box">
-                  <img src="./assets/img/no_img_sq.png" alt="전부지원자금 컨설팅" class="img-fluid">
+                  <img src="./assets/img/fc-benefit-5.png" alt="전부지원자금 컨설팅" class="img-fluid">
                 </div>
                 <div class="bz-txt-box">
                   <h5 class="bz-tit">전부지원자금 컨설팅</h5>
@@ -286,6 +311,93 @@ include_once "./_header.php"
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 상담신청 -->
+    <section id="fcForms" class="fc-forms">
+      <div class="container">
+        <form class="d-grid col-lg-8 mx-auto">
+          <div class="tit-box d-flex justify-content-between align-items-end border-bottom mb-3">
+            <h2 class="bz-forms-tit">창업 상담신청</h2>
+            <p class="bz-forms-txt">문의 : 1800-5279</p>
+          </div>
+          <div class="form-box">
+            <div class="bz-input">
+              <label for="inputName" class="form-label">이름</label>
+              <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp">
+            </div>
+            <div class="bz-input">
+              <label for="inputPhone" class="form-label">연락처</label>
+              <input type="tel" class="form-control" id="inputPhone" placeholder="숫자만 입력해주세요">
+            </div>
+            <div class="bz-input">
+              <label for="inputAddress" class="form-label">지역(행정동,읍,면까지 입력)</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="ex) 서울시 광진구 군자동">
+            </div>
+            <div class="form-check mb-5">
+              <input type="checkbox" class="bz-input form-check-input" id="formCheck">
+              <label class="form-check-label" for="formCheck">개인정보 수집 및 이용 동의<span>(필수)</span></label>
+              <!-- Button trigger modal -->
+              <a type="button" class="modal-link" data-bs-toggle="modal" data-bs-target="#floatbarInfo">자세히보기</a>
+            </div>
+            <div class="fc-forms-btn d-grid">
+              <button type="submit" class="form-button btn btn-primary">신청하기</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- 상담신청 sticky -->
+    <section id="fcStickyForms" class="fc-sticky-forms">
+      <div class="container">
+        <form class="d-flex justify-content-between  align-items-center">
+          <div class="tit-box">
+            <h2 class="fc-sticky-forms-tit">창업 상담신청</h2>
+            <p class="fc-sticky-forms-txt">1800-5279</p>
+          </div>
+          <div class="form-box">
+            <div class="d-flex justify-content-between">
+              <div class="bz-input mx-3">
+                <label for="inputName" class="form-label">이름</label>
+                <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp">
+              </div>
+              <div class="bz-input mx-3">
+                <label for="inputPhone" class="form-label">연락처</label>
+                <input type="tel" class="form-control" id="inputPhone" placeholder="숫자만 입력해주세요">
+              </div>
+              <div class="bz-input mx-3">
+                <label for="inputAddress" class="form-label">지역(행정동,읍,면까지 입력)</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="ex) 서울시 광진구 군자동">
+              </div>
+            </div>
+            <div class="mx-3 form-check">
+              <input type="checkbox" class="form-check-input" id="formCheck">
+              <label class="form-check-label" for="formCheck">개인정보 수집 및 이용 동의<span>(필수)</span></label>
+              <!-- Button trigger modal -->
+              <a type="button" class="modal-link" data-bs-toggle="modal" data-bs-target="#floatbarInfo">자세히보기</a>
+            </div>
+          </div>
+          <button type="submit" class="form-button btn btn-primary fc-sticky-forms-btn">신청하기</button>
+        </form>
+      </div>
+    </section>
+    <section id="floatbarInfo" class="modal fade floatbar-info" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="floatbarInfoLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="floatbarInfoLabel">[개인정보 수집 및 이용]</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="modal-body-txt"><span>수집항목 : </span>이름, 전화전호, 주소</p>
+            <p class="modal-body-txt"><span>수집목적 : </span>고객상담, 접수 및 처리, 결과 통보</p>
+            <p class="modal-body-txt"><span>보유기간 : </span>상담/처리 완료 시</p>
+            <p class="modal-body-txt">개인정보 수집 및 이용에 대한 동의를 거부할 수 있으며, 거부 할 경우 상담 신청이 제한 됩니다.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
