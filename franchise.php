@@ -25,7 +25,7 @@ include_once "./_header.php"
                 </div>
                 <div class="bz-btn-box bz-btn-lg-left">
                   <a href="./franchise.php#fcForms" class="btn btn-secondary bz-btn">창업 상담 신청하기</a>
-                  <a href="" class="btn btn-secondary bz-btn">브로셔 다운로드</a>
+                  <!-- <a href="" class="btn btn-secondary bz-btn">브로셔 다운로드</a> -->
                 </div>
               </div>
             </div>
@@ -232,14 +232,14 @@ include_once "./_header.php"
           </div>
           <div class="col bz-item-box">
             <div class="bz-tab-content">
-              <ul id="pyeong_tab" class="nav nav-tabs bz-tab-head" role="tablist">
+              <!-- <ul id="pyeong_tab" class="nav nav-tabs bz-tab-head" role="tablist">
                 <li class="nav-item bz-tab-item">
                   <a id="pyeong10_tab" class="nav-link bz-tab-link active" data-bs-toggle="tab" data-bs-target="#pyeong10" type="button" role="tab" aria-controls="pyeong10" aria-selected="true">10평</a>
                 </li>
                 <li class="nav-item bz-tab-item">
                   <a id="pyeong15_tab" class="nav-link bz-tab-link" data-bs-toggle="tab" data-bs-target="#pyeong15" type="button" role="tab" aria-controls="pyeong15" aria-selected="false">15평</a>
                 </li>
-              </ul>
+              </ul> -->
               <ul id="pyeong" class="tab-content bz-tab-body">
                 <li id="pyeong10" class="tab-pane fade show active" role="tabpanel" aria-labelledby="pyeong10_tab" tabindex="0">
                   <img src="./assets/img/fc-cost-m-10.png" alt="10평 개설비용" class="img-fluid fc-cost-m-10 mb-3">
@@ -247,8 +247,8 @@ include_once "./_header.php"
                   <p class="fc-cost-txt mb-1">* 별도 사항 : 전기증설, 철거비용, 냉/난방기기, 건물 외관 공사, 기타 기물</p>
                   <p class="fc-cost-txt">* 위 사항은 예측된 수치로 변동 될 수 있습니다.</p>
                 </li>
-                <li id="pyeong15" class="tab-pane fade" role="tabpanel" aria-labelledby="pyeong15_tab" tabindex="0">
-                  <img src="./assets/img/no_img_rect_w.png" alt="10평 개설비용" class="img-fluid">
+                <!-- <li id="pyeong15" class="tab-pane fade" role="tabpanel" aria-labelledby="pyeong15_tab" tabindex="0">
+                  <img src="./assets/img/no_img_rect_w.png" alt="10평 개설비용" class="img-fluid"> -->
                 </li>
               </ul>
             </div>
@@ -257,14 +257,23 @@ include_once "./_header.php"
       </div>
     </section>
     <!-- 추가 혜택 -->
-    <section class="bz-sec">
+    <section class="bz-sec fc-benefit">
       <div class="container">
         <div class="row row-cols-1">
           <div class="col bz-tit-box">
             <h2 class="bz-tit">추가 혜택</h2>
           </div>
           <div class="col bz-item-box fc-benefit">
-            <div class="row row-cols-2 row-cols-lg-5">
+            <div class="row row-cols-2 row-cols-lg-6">
+              <div class="col">
+                <div class="bz-img-box">
+                  <img src="./assets/img/fc-benefit-6.png" alt="창업비용" class="img-fluid">
+                </div>
+                <div class="bz-txt-box">
+                  <h5 class="bz-tit">창업 시설 비용</h5>
+                  <p class="bz-txt">전액 렌탈 지원</p>
+                </div>
+              </div>
               <div class="col">
                 <div class="bz-img-box">
                   <img src="./assets/img/fc-benefit-1.png" alt="배달 앱 세팅" class="img-fluid">
@@ -306,7 +315,7 @@ include_once "./_header.php"
                   <img src="./assets/img/fc-benefit-5.png" alt="전부지원자금 컨설팅" class="img-fluid">
                 </div>
                 <div class="bz-txt-box">
-                  <h5 class="bz-tit">전부지원자금 컨설팅</h5>
+                  <h5 class="bz-tit">정부지원자금 컨설팅</h5>
                   <p class="bz-txt">무료</p>
                 </div>
               </div>
